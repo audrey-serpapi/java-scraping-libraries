@@ -21,6 +21,7 @@ dependencies {
     implementation("org.htmlunit:htmlunit:5.3.0")
     implementation("us.codecraft:webmagic-core:1.0.3")
     implementation("org.jsoup:jsoup:1.18.1")
+    implementation(files("libs/jaunt1.6.2.jar"))
 
     // Jaunt isn't on Maven Central: download the jar from jaunt-api.com into libs/
     implementation(fileTree("libs") { include("*.jar") })
